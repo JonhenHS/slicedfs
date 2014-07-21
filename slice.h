@@ -21,6 +21,10 @@
 #ifndef SLICE_H
 #define SLICE_H
 
+struct super_block
+{
+  unsigned int sb_version;
+};
 
 
 #endif /* SLICE_H */
